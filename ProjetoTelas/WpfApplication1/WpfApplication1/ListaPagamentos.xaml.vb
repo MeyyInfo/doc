@@ -1,0 +1,3 @@
+﻿Class ListaPagamentos
+
+End Class

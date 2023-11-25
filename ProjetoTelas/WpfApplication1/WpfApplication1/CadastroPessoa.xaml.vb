@@ -1,0 +1,3 @@
+﻿Class CadastroPessoa
+
+End Class

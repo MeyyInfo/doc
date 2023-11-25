@@ -1,0 +1,3 @@
+﻿Class Pagamento
+
+End Class

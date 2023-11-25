@@ -1,0 +1,32 @@
+﻿<Page x:Class="CadastroCategoriaItens"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="CadastroCategoriaItens">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="31" VerticalAlignment="Top" Width="290">
+            <Label Content="Cadastro de Categoria e de Item" HorizontalAlignment="Left" Height="27" Margin="9,3,0,-1" VerticalAlignment="Top" Width="251"/>
+        </Border>
+        <Label Content="Categoria:" HorizontalAlignment="Left" Height="31" Margin="10,56,0,0" VerticalAlignment="Top" Width="68"/>
+        <ComboBox HorizontalAlignment="Left" Height="22" Margin="78,56,0,0" VerticalAlignment="Top" Width="203"/>
+        <Button Content="Inserir" HorizontalAlignment="Left" Height="22" Margin="121,83,0,0" VerticalAlignment="Top" Width="50" RenderTransformOrigin="0.82,2.273"/>
+        <Button Content="Editar" HorizontalAlignment="Left" Height="22" Margin="176,83,0,0" VerticalAlignment="Top" Width="50"/>
+        <Button Content="Excluir" HorizontalAlignment="Left" Height="22" Margin="231,83,0,0" VerticalAlignment="Top" Width="50"/>
+        <Button Content="Nova" HorizontalAlignment="Left" Height="22" Margin="78,83,0,0" VerticalAlignment="Top" Width="38" RenderTransformOrigin="-0.5,0.409"/>
+        <DataGrid HorizontalAlignment="Left" Height="122" Margin="10,137,0,0" VerticalAlignment="Top" Width="280"/>
+        <Label HorizontalAlignment="Left" Height="27" Margin="10,124,0,0" VerticalAlignment="Top" Width="37" RenderTransformOrigin="1.27,1.815"/>
+        <Label Content="... Descrição ..." HorizontalAlignment="Left" Height="27" Margin="53,129,0,0" VerticalAlignment="Top" Width="87" RenderTransformOrigin="0.23,0.444"/>
+        <Label Content="Preço" HorizontalAlignment="Left" Height="24" Margin="132,129,0,0" VerticalAlignment="Top" Width="45"/>
+        <Button Content="Editar" HorizontalAlignment="Left" Height="20" Margin="175,151,0,0" VerticalAlignment="Top" Width="41"/>
+        <Button Content="Inserir" HorizontalAlignment="Left" Height="20" Margin="217,151,0,0" VerticalAlignment="Top" Width="37"/>
+        <Button Content="Excluir" HorizontalAlignment="Left" Height="20" Margin="254,151,0,0" VerticalAlignment="Top" Width="36"/>
+        <Button Content="Inserir Item" HorizontalAlignment="Left" Height="26" Margin="166,262,0,0" VerticalAlignment="Top" Width="122"/>
+        <Label Content="Item" HorizontalAlignment="Left" Height="26" Margin="15,129,0,0" VerticalAlignment="Top" Width="35"/>
+        <Label Content="xx" HorizontalAlignment="Left" Height="30" Margin="17,145,0,0" VerticalAlignment="Top" Width="27"/>
+        <Label Content="xxxxxxxxxx" HorizontalAlignment="Left" Height="32" Margin="66,145,0,0" VerticalAlignment="Top" Width="71"/>
+        <Label Content="xxxx,xx" HorizontalAlignment="Left" Height="29" Margin="128,146,0,0" VerticalAlignment="Top" Width="51"/>
+    </Grid>
+</Page>

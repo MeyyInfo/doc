@@ -1,0 +1,3 @@
+﻿Class CadastroCategoriaItens
+
+End Class

@@ -1,0 +1,3 @@
+﻿Class SituacaoPedido
+
+End Class
